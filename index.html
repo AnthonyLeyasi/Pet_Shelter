@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pet Shelter</title>
+</head>
+
+<body class="body">
+    <div class="top">
+        <div class="pet">
+            <img src="assets/heart-light.png" alt="">
+            <h1>Pet Shelter</h1>
+        </div>
+        <h2 class="lin"><a href="#">Find a Pet</a></h2>
+        <button class="dnt-btn" onclick="hide(this)">Donate</button>
+    </div>
+    <div class="top-b">
+        <p>Im looking for a......</p>
+        <div class="paw-pic">
+            <img src="assets/paw-light.png" alt="paw-img">
+            <label> I'm looking for a...</label>
+            <select name="element" onchange="changePet(this)">
+                <option>Any Pet</option>
+                <option>Cat</option>
+                <option>Dog</option>
+            </select>
+        </div>
+
+        <p>In or near....</p>
+        <img src="assets/pin-light.png" alt="pin-img">
+        <input type="text" placeholder="City or Zip Code">
+        <button class="btn1">Find your new best friend</button>
+
+    </div>
+
+
+    <div class="container">
+        <img class="a-img" src="assets/pepper.jpg" alt="a-img">
+        <div class="col">
+            <h2>Pepper</h2>
+            <p class="ptag">Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+            <div class="con1">
+                <span class="num">3 pettings</span>
+                <button onclick="petb()" class="a-btn">Pet Pepper</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="a-img" src="assets/bruce.jpg" alt="a-img">
+        <div class="col">
+            <h2>Bruce</h2>
+            <p class="ptag">Bruce is a loyal companion. He loves long walks and cold weather.</p>
+            <div class="con1">
+                <span class="num2">3 pettings</span>
+                <button onclick="petb2()" class="a-btn">Pet Bruce</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="a-img" src="assets/oscar.jpg" alt="a-img">
+        <div class="col">
+            <h2>Oscar</h2>
+            <p class="ptag">Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+            <div class="con1">
+                <span class="num3">3 pettings</span>
+                <button onclick="petb3()" class="a-btn">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

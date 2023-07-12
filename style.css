@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    background-color: #119b9d;
+    border: 2px solid black solid;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    height: 100px;
+}
+
+.top-b {
+    background-color: #119b9d;
+    border: 2px solid black solid;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.btn1 {
+    background-color: rebeccapurple;
+    color: white;
+    box-shadow: 5px 5px black;
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.a-btn {
+    background-color: #119b9d;
+    color: white;
+    width: 200px;
+    height: 40px;
+    box-shadow: 3px 5px black;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    padding: 15px 15px;
+    margin-right: 60px;
+    margin-left: 80px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.num {
+    display: block;
+}
+
+.col {
+    width: 220px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.dnt-btn {
+    color: rebeccapurple;
+    background: white;
+    height: 30px;
+    width: 150px;
+    box-shadow: 5px 5px black;
+}
+
+.pet {
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.paw-pic {
+    display: flex;
+}
+
+select {
+    width: 100px;
+    height: 20px;
+}
